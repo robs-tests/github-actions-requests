@@ -12,7 +12,7 @@ jobs:
         name: Tag a user or team in an issue comment
         with: 
           issue: ${{ github.event.issue.number }}
-          team: 'rajbos'
+          team: 'pahrens-github'
           owner: ${{ github.repository_owner }}
           repo: ${{ github.repository }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
